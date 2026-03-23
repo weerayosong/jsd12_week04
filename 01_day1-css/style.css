@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gochi+Hand&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Satisfy&display=swap');
+
+:root {
+    --pink: #ec1d5b;
+    --blue: #23b2c0;
+    --white: #eee;
+    --black: #222;
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
+    font-family: Satisfy, Cursive;
+}
+
+html {
+    font-size: 62.5%;
+
+    body {
+        font-size: 1.6rem;
+    }
 }
 
 .external-blue {
@@ -15,9 +33,9 @@
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    background-color: #000;
-    color: #eee;
-    font-size: 48px;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 4.8rem;
     font-weight: 400;
-    text-shadow: 2px 2px #ec1d5b, -2px -2px #23b2c0;
+    text-shadow: 2px 2px var(--pink), -2px -2px var(--blue);
 }
