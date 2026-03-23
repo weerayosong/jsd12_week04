@@ -1,0 +1,23 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.external-blue {
+    color: #00b;
+}
+
+.tiktok {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #eee;
+    font-size: 48px;
+    font-weight: 400;
+    text-shadow: 2px 2px #ec1d5b, -2px -2px #23b2c0;
+}
