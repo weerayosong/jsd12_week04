@@ -1,0 +1,66 @@
+:root {
+    --pink: #ec1d5b;
+    --blue: #23b2c0;
+    --white: #eee;
+    --black: #222;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+
+    body {
+        font-size: 1.6rem;
+    }
+}
+
+/* 2 Nichi me Sutāto!
+   Day 2 Start!      */
+
+a {
+    text-decoration: none;
+    color: var(--pink);
+
+    span {
+            color: var(--blue);
+    }
+}
+
+/* descendant selector (space) */
+h1 span {
+    color: #f4ddb3;
+    background-color: purple;
+}
+
+/* child selector (>) */
+ul > li {
+    font-weight: bold;
+    color: blue;
+}
+
+/* adjacent sibling selector (+) */
+h2 + p {
+    display:inline;
+    font-style: italic;
+    color: yellow;
+    background-color: #333;
+}
+
+
+/* general sibling selector (~) */
+h2 ~ p {
+    text-decoration: underline;
+}
+
+.test {
+    text-decoration: none;
+    color: greenyellow;
+    background-color: #555;
+
+    span {
+        color: var(--pink);
+    }
+}
