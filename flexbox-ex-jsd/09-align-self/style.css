@@ -15,7 +15,7 @@ h1 {
   display: flex;
   align-items: stretch;
   border: 2px solid #333;
-  padding: 10px;
+  /* padding: 10px; */
   margin-top: 20px;
   width: 80%;
   height: 150px;
@@ -24,12 +24,12 @@ h1 {
 .item {
   width: 80px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
+  align-items: stretch;
   font-size: 24px;
   font-weight: bold;
   color: white;
-  margin: 5px;
+  margin: 0 5px;
   border-radius: 5px;
   text-align: center;
   align-self: auto;
@@ -38,16 +38,22 @@ h1 {
 .item-a {
   background-color: #ff6b6b;
   height: 60px;
+  align-self: flex-start;
+  align-content: end;
 }
 .item-b {
   background-color: #4ecdc4;
   height: 100px;
+  align-self: flex-end;
 }
 .item-c {
   background-color: #45b7d1;
   height: 80px;
+  align-self: center;
 }
 .item-d {
   background-color: #f9ca24;
-  height: 120px;
+  height: auto;
+  align-self: stretch;
+  align-content: end;
 }

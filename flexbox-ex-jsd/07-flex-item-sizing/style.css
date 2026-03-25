@@ -35,13 +35,18 @@ h1 {
 
 .item-1 {
   background-color: #ff6b6b;
+  flex-grow: 1;
 }
 .item-2 {
   background-color: #4ecdc4;
+  flex-grow: 2;
 }
 .item-3 {
   background-color: #45b7d1;
+  min-width: 150x;
+  flex-shrink: 0;
 }
 .item-4 {
   background-color: #f9ca24;
+  flex-basis: 200px;
 }

@@ -30,18 +30,22 @@ h1 {
   color: white;
   margin: 5px;
   border-radius: 5px;
-  order: 0;
+  /* order: 0; */
 }
 
 .item-a {
   background-color: #ff6b6b;
+  /* order: 3; */ 
 }
 .item-b {
   background-color: #4ecdc4;
+  order: 2;
 }
 .item-c {
   background-color: #45b7d1;
+  order: -1;
 }
 .item-d {
   background-color: #f9ca24;
+  order: 1;
 }
